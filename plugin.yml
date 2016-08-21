@@ -1,0 +1,16 @@
+name: YouTube
+version: 1.0
+author: Admiral_Zott
+website: http://www.BukkitFabo.de/
+description: A Minecraft Plugin
+load: STARTUP
+database: false
+depend: []
+prefix: YouTubePlugin
+main: de.BukkitFabo.YouTube.Main
+commands:
+  info:
+    aliases: [i, inf]
+    usage: /info
+    description: Info Command
+  group:
